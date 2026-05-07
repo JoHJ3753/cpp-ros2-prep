@@ -15,13 +15,14 @@ int main(){
 	char robot_grade = 'A';
 	
 	//6. 모든 값을 보기 좋게 출력하기
+	
+	//7. bool 값은 true/false로 출력하기
 	std::cout << std::boolalpha;
 	
 	std::cout << "===== Robot Profile =====" << std::endl;
 	std::cout << "Name: " << robot_name << std::endl;
 	std::cout << "ID: " << robot_id << std::endl;
 	std::cout << "Max Speed: " << max_speed << " m/s" << std::endl;
-	//7. bool 값은 true/false로 출력하기
 	std::cout << "Autonomous: " << autonomous << std::endl;
 	std::cout << "Grade: " << robot_grade << std::endl;
 	
