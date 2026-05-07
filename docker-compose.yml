@@ -1,0 +1,11 @@
+services:
+  cpp-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cpp-ros2-prep
+    working_dir: /workspace
+    volumes:
+      - ./workspace:/workspace
+    stdin_open: true
+    tty: true
