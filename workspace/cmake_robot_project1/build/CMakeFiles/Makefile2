@@ -81,12 +81,12 @@ clean: CMakeFiles/robot_app.dir/clean
 CMakeFiles/robot_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_app.dir/build.make CMakeFiles/robot_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_app.dir/build.make CMakeFiles/robot_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/cmake_robot_project/build/CMakeFiles --progress-num=1,2 "Built target robot_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/cmake_robot_project/build/CMakeFiles --progress-num=1,2,3 "Built target robot_app"
 .PHONY : CMakeFiles/robot_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/robot_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/cmake_robot_project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/cmake_robot_project/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/robot_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/cmake_robot_project/build/CMakeFiles 0
 .PHONY : CMakeFiles/robot_app.dir/rule

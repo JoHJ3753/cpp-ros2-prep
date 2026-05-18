@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_app.dir/src/main.cpp.o"
   "CMakeFiles/robot_app.dir/src/main.cpp.o.d"
+  "CMakeFiles/robot_app.dir/src/robot_status.cpp.o"
+  "CMakeFiles/robot_app.dir/src/robot_status.cpp.o.d"
   "robot_app"
   "robot_app.pdb"
 )
